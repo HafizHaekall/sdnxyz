@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hamburger div:first-child {
+    @apply rotate-45 translate-y-1.5;
+  }
+  .hamburger div:last-child {
+    @apply -rotate-45 -translate-y-1;
+  }
+}
+
+header ul li a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: transparent; /* Default background color */
+  transform-origin: right; /* Pusat transformasi dari sisi kanan */
+  transform: scaleX(0); /* Skala awal nol */
+  transition: transform 0.2s ease, background-color 0.2s ease; /* Transisi untuk efek */
+}
+
+header ul li a.active::before {
+  background-color: #92E3A9; /* Background color saat aktif */
+  transform-origin: left; /* Pusat transformasi dari sisi kiri */
+  transform: scaleX(1); /* Skala penuh saat aktif */
+}
