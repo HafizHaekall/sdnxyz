@@ -75,22 +75,22 @@
                     <ul class="px-6 pt-32 text-gray-700 space-y-8 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
                       <li>
                         <a href="#" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-[#92E3A9] before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
-                          <span class="relative group-hover:text-cyan-800">Beranda</span>
+                          <span class="relative">Beranda</span>
                         </a>
                       </li>
                       <li>
                         <a href="#profil" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-[#92E3A9] before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
-                          <span class="relative group-hover:text-cyan-800">Profil</span>
+                          <span class="relative">Profil</span>
                         </a>
                       </li>
                       <li>
                         <a href="#karya" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-[#92E3A9] before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
-                          <span class="relative group-hover:text-cyan-800">Karya</span>
+                          <span class="relative">Karya</span>
                         </a>
                       </li>
                       <li>
                         <a href="#kontak" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-2 before:origin-right before:scale-x-0 before:bg-[#92E3A9] before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
-                          <span class="relative group-hover:text-cyan-800">Kontak</span>
+                          <span class="relative">Kontak</span>
                         </a>
                       </li>
                     </ul>
@@ -168,35 +168,41 @@
   </div>
 
   <div id="karya" class="px-4 sm:px-6 lg:container lg:mx-auto sm:pt-20 sm:pb-12">
-    <h1 class="text-2xl text-center sm:text-4xl font-bold text-gray-600">Karya Siswa-Siswi</h1>
+    <h1 class="text-2xl text-center sm:text-4xl font-bold text-gray-600 mb-6">Karya Siswa-Siswi</h1>
     <div class="flex flex-wrap justify-center sm:justify-between gap-4">
-      <div class="card w-96 h-56 py-6 bg-base-100 shadow-xl image-full bg-cover">
+      <div class="card w-96 h-56 bg-base-100 shadow-xl image-full bg-cover">
         <img class="rounded-3xl" src="assets/blockninja.png" alt="Game" />
         <div class="card-body">
           <h2 class="card-title">Game</h2>
           <p>Block Ninja</p>
           <div class="card-actions justify-end">
-            <a href="https://block-ninja.vercel.app/" target="_blank" class="btn glass text-white hover:text-gray-600 px-7">Mainkan</a>
+            <a href="https://block-ninja.vercel.app/" target="_blank" class="btn glass text-white hover:text-gray-600 px-7">
+              Mainkan
+            </a>
           </div>
         </div>
       </div>
-      <div class="card w-96 h-56 py-6 bg-base-100 shadow-xl image-full bg-cover">
-        <img class="rounded-3xl" src="assets/blockninja.png" alt="Game" />
+      <div class="card w-96 h-56 bg-base-100 shadow-xl image-full bg-cover">
+        <img class="rounded-3xl" src="assets/hewan.png" alt="Game" />
         <div class="card-body">
           <h2 class="card-title">Game</h2>
-          <p>Mengenal Nama Hewan</p>
+          <p>Mengenal Hewan Laut</p>
           <div class="card-actions justify-end">
-            <button class="btn glass text-white hover:text-gray-600 px-7">Mainkan</button>
+            <a href="https://lusista.itch.io/mathcing-the-boxes/" target="_blank" class="btn glass text-white hover:text-gray-600 px-7">
+              Mainkan
+            </a>
           </div>
         </div>
       </div>
-      <div class="card w-96 h-56 py-6 bg-base-100 shadow-xl image-full bg-cover">
-        <img class="rounded-3xl" src="assets/blockninja.png" alt="Game" />
+      <div class="card w-96 h-56 bg-base-100 shadow-xl image-full bg-cover">
+        <img class="rounded-3xl" src="assets/animasi.jpg" alt="Game" />
         <div class="card-body">
           <h2 class="card-title">Animasi</h2>
-          <p>Belajar Warna dalam Bahasa Inggris</p>
+          <p>Hewan Laut dalam Bahasa Inggris</p>
           <div class="card-actions justify-end">
-            <button class="btn glass text-white hover:text-gray-600 px-7">Tonton</button>
+            <a href="https://www.youtube.com/watch?v=gMtE19ChFXc" target="_blank" class="btn glass text-white hover:text-gray-600 px-7">
+              Tonton
+            </a>
           </div>
         </div>
       </div>
@@ -210,7 +216,7 @@
           <div class="px-4 py-16 bg-[#DEF6E5]">
             <h1 class="text-2xl sm:text-4xl font-bold text-gray-600">Kontak</h1>
             <p class="mt-2">Ada hal yang ingin Anda sampaikan atau ingin tahu lebih lanjut? angan ragu untuk menghubungi kami kapan saja, kami siap membantu!</p>
-            <div class="flex items-center mt-7">
+            <div class="flex items-center mt-[17px]">
               <img class="w-5 h-5 mr-4" src="assets/phone.svg" alt="">
               <p class="">(123) 456-7890</p>
             </div>
@@ -220,14 +226,14 @@
             </div>
             <div class="flex items-center mt-4">
               <img class="w-5 h-5 mr-4" src="assets/maps.svg" alt="">
-              <p class="">Jalan Pendidikan No. 123, Kota ABC, Provinsi XYZ</p>
+              <p class="">Jalan Pendidikan No. 123, Kota XYZ, Provinsi ABC</p>
             </div>
           </div>
         </div>
         <div class="mockup-window border bg-[#92E39A] w-full sm:w-[50%]">
           <div class="px-4 py-16 bg-[#DEF6E5]">
-            <input type="text" placeholder="Nama" class="input input-bordered w-full mb-4" />
-            <input type="text" placeholder="Email" class="input input-bordered w-full mb-4" />
+            <input type="name" placeholder="Nama" class="input input-bordered w-full mb-4" />
+            <input type="email" placeholder="Email" class="input input-bordered w-full mb-4" />
             <textarea placeholder="Pesan" class="textarea textarea-bordered textarea-lg w-full" ></textarea>
           </div>
         </div>
